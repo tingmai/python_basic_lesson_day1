@@ -1,0 +1,288 @@
+
+Python basic:
+----------------
+
+
+Data Types:
+
+1.numbers
+2.string/char
+3.list
+4.set
+5.dictionary
+6.tuples
+7.undefined
+
+
+============================================
+
+
+How to display messages on the console ( screen )
+
+print()
+
+print("   MPT Data Pack Sales ")
+print('-------------------------')
+print('  [1] 300 mb => 600 ks   ')
+print('  [2] 480 mb => 900 ks   ')
+print('  [3] 1 GB  =>  1800 ks   ')
+print('  [4] 2 GB  => 3600 ks    ')
+print('--------------------------')
+print('  [5] Exit                ')
+print('---------------------------')
+
+==============================================
+
+Basic Calculations
+
+
+variable
+     - is a name defined by a programmer
+     - is a temporary data storage by which we carry our data
+
+
+Programming Coding type:
+   a) functional programming
+   b) oop programming
+
+Programming Language Type:
+   a) Compiled Languages
+        C/C++/Java/C#
+        -Game/hardware controller (speed)
+   b) Interpredted Languages
+         PHP,Python,JavaScript
+         -data analysis/visualization/AI(slow)
+
+
+clean code
+--------------
+1.pascal case 
+2.camel case
+3.snake case
+-------------
+
+
+pascal case (pascal/C/C++)
+
+FirstName -
+LargestNumber
+CustomerAddress
+
+
+camel case -  (java/C#)
+-------------
+firstName
+largestNumber
+customerAddress
+
+snake case - (JavaScript/Python)
+
+first_name
+largest_number
+customer_address
+
+===========================================
+
+
+Basic Calculations
+
+
+print('Basic Calculation ')
+print('---------------------')
+print('  Add Numbers     ')
+
+first_num=int(input('Enter First Number:'))
+second_num=int(input('Entter Second Number:'))
+
+ans=first_num + second_num
+
+print('The answer is = ',ans)
+
+=============================================
+
+print('Basic Calculation ')
+print('---------------------')
+print('  Add Numbers     ')
+
+first_num=input('Enter First Number:')
+second_num=input('Entter Second Number:')
+
+ans=int(first_num) - int(second_num)
+
+print('The answer is = ',ans)
+
+=================================================
+
+Conditional Statements
+
+1. if-else
+2. if-else-if
+3. nesting if
+
+   1. if-else
+     if con:
+         True
+     esle:
+          false
+
+      nesting:
+
+    2. if-else-if
+
+         if con1 and con2 and con3:
+             True
+         elif con1 and con2 and con3:
+             True
+         elif con1 and con2 and con3:
+             True
+         ...
+         else:
+              False
+
+ 	if con:
+            if con:
+                True
+             else:
+                False
+     	esle:
+             if con:
+                True
+             else:
+                False
+
+==================================================
+
+print(' Algorithm-1 ')
+print(' if-else algorithm ')
+print(' Finding the largest no ... ')
+printn('-----------------')
+
+a=int(input('Enter input1:'))
+b=int(input('Enter input2:'))
+c=int(input('Enter input3:'))
+
+#if-else algorithm
+
+if a>b:
+    L=a
+else:
+    L=b
+
+if c>L:
+    L=c
+
+print('the largest no is = ',L)
+
+
+================================
+
+print(' Algorithm-2 ')
+print(' if-else-if algorithm ')
+print(' Finding the largest no ... ')
+printn('-----------------')
+
+a=int(input('Enter input1:'))
+b=int(input('Enter input2:'))
+c=int(input('Enter input3:'))
+
+#if-else-if algorithm
+
+if a>b and a>c:
+    L=a
+elif b>a and b>c:
+    L=b
+else:
+    L=c
+
+print('the largest no is = ',L)
+
+==========================
+
+print(' Algorithm-3 ')
+print(' Nesting if Algorithm ')
+print(' Finding the largest no ... ')
+printn('-----------------')
+
+a=int(input('Enter input1:'))
+b=int(input('Enter input2:'))
+c=int(input('Enter input3:'))
+
+#if-else-if algorithm
+
+if a>b:
+    if a>c:
+        L=a
+    else:
+        L=c
+else:
+    if b>c:
+        L=b
+    else:
+        L=c
+
+    
+
+print('the largest no is = ',L)
+
+
+====================================
+
+Practice 1:
+
+
+MENU
+---------
+Aya Bank
+---------
+[1] Open Account
+[2] Deposit
+[3] Withdraw
+[4] Close Account
+-------------
+[5] Exit
+----------------
+
+
+====================
+
+
+Practice 2:
+
+
+Multiply Numbers
+
+Enter Input1: 3
+Enter Input2: 4
+
+The answer is : 12
+
+===========================
+
+Practice 3
+
+
+Find the largest no
+
+Enter Input 1: 1
+Enter Input 2: 33
+Enter Input 3: 4
+Enter Input 4: 22
+
+The  Largest No is = 33
+
+======================
+
+Practice 4
+
+
+Find the largest no
+
+Enter Input 1: 1
+Enter Input 2: 33
+Enter Input 3: 44
+Enter Input 4: 24
+Enter Input 5: 2
+
+The  Largest No is = 44
+
+===========================
